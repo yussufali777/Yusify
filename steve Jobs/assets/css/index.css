@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 375px;
+  min-height: 720px;
+  position: relative;
+
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: aqua;
+}
+.bg-image {
+  height: 270px;
+  width: 100%;
+  background-image: url(../img/Header\ image.png);
+  background-position: center;
+  background-size: cover;
+  padding: 1rem 1rem;
+  color: #fff;
+}
+.bg-image-presentation {
+  display: flex;
+  align-items: center;
+}
+.bg-image-presentation img {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.profile {
+  background-color: #fff;
+  height: 500px;
+  width: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  position: absolute;
+  bottom: 0;
+  padding: 1.5rem;
+  color: #462681;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-name-area-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-name-area .profile-name-area-top .main-heading {
+  font-size: 44px;
+  font-weight: 900;
+}
+.profile-name-area .follow-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.profile-name-area .follow-wrapper svg {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.profile-name-area .follow-wrapper p {
+  font-size: 14px;
+  font-weight: 900;
+}
+.social-connections {
+  border-top: 2px solid #462681;
+  border-bottom: 2px solid #462681;
+  padding: 0.7rem 0rem;
+  margin: 1.5rem 0rem;
+}
+.connetion-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0rem 1rem;
+}
+.social-connections p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 900;
+}
+.social-connections p span {
+  font-size: 24px;
+}
+.categories .categories-heading {
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.categories .category {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0rem;
+  border-bottom: 2px solid #462681;
+  cursor: pointer;
+}
+.categories .category h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
